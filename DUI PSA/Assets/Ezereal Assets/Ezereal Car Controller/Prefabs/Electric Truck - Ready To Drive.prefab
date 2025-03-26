@@ -2375,7 +2375,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2572135823185240293}
-  - component: {fileID: 7648360761716613375}
   - component: {fileID: 4564780491122737389}
   - component: {fileID: 3031085060498521640}
   - component: {fileID: 7994006848973642171}
@@ -2401,49 +2400,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5603512679097151092}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7648360761716613375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1920492357214142347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Priority:
-    Enabled: 0
-    m_Value: 0
-  OutputChannel: 1
-  StandbyUpdate: 2
-  m_StreamingVersion: 20241001
-  m_LegacyPriority: 0
-  Target:
-    TrackingTarget: {fileID: 2190837854687154432}
-    LookAtTarget: {fileID: 0}
-    CustomLookAtTarget: 0
-  Lens:
-    FieldOfView: 75
-    OrthographicSize: 5
-    NearClipPlane: 0.1
-    FarClipPlane: 1000
-    Dutch: 0
-    ModeOverride: 0
-    PhysicalProperties:
-      GateFit: 2
-      SensorSize: {x: 21.946, y: 16.002}
-      LensShift: {x: 0, y: 0}
-      FocusDistance: 10
-      Iso: 200
-      ShutterSpeed: 0.005
-      Aperture: 16
-      BladeCount: 5
-      Curvature: {x: 2, y: 11}
-      BarrelClipping: 0.25
-      Anamorphism: 0
-  BlendHint: 0
 --- !u!114 &4564780491122737389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2520,6 +2476,8 @@ MonoBehaviour:
       Input:
         InputAction: {fileID: 2665944532482622193, guid: 67d1239777fa0e944b8dee2f1d7df18d, type: 3}
         Gain: 5
+        LegacyInput: 
+        LegacyGain: 1
         CancelDeltaTime: 0
       InputValue: 0
       Driver:
@@ -2531,6 +2489,8 @@ MonoBehaviour:
       Input:
         InputAction: {fileID: 2665944532482622193, guid: 67d1239777fa0e944b8dee2f1d7df18d, type: 3}
         Gain: -5
+        LegacyInput: 
+        LegacyGain: 1
         CancelDeltaTime: 0
       InputValue: 0
       Driver:
@@ -4119,6 +4079,8 @@ MonoBehaviour:
       Input:
         InputAction: {fileID: 2665944532482622193, guid: 67d1239777fa0e944b8dee2f1d7df18d, type: 3}
         Gain: 20
+        LegacyInput: 
+        LegacyGain: 1
         CancelDeltaTime: 0
       InputValue: 0
       Driver:
@@ -4130,6 +4092,8 @@ MonoBehaviour:
       Input:
         InputAction: {fileID: 2665944532482622193, guid: 67d1239777fa0e944b8dee2f1d7df18d, type: 3}
         Gain: -20
+        LegacyInput: 
+        LegacyGain: 1
         CancelDeltaTime: 0
       InputValue: 0
       Driver:
@@ -4141,6 +4105,8 @@ MonoBehaviour:
       Input:
         InputAction: {fileID: 0}
         Gain: 1
+        LegacyInput: 
+        LegacyGain: 1
         CancelDeltaTime: 0
       InputValue: 0
       Driver:
@@ -5984,6 +5950,8 @@ MonoBehaviour:
       Input:
         InputAction: {fileID: 2665944532482622193, guid: 67d1239777fa0e944b8dee2f1d7df18d, type: 3}
         Gain: 20
+        LegacyInput: 
+        LegacyGain: 1
         CancelDeltaTime: 0
       InputValue: 0
       Driver:
@@ -5995,6 +5963,8 @@ MonoBehaviour:
       Input:
         InputAction: {fileID: 2665944532482622193, guid: 67d1239777fa0e944b8dee2f1d7df18d, type: 3}
         Gain: -20
+        LegacyInput: 
+        LegacyGain: 1
         CancelDeltaTime: 0
       InputValue: 0
       Driver:
@@ -6006,6 +5976,8 @@ MonoBehaviour:
       Input:
         InputAction: {fileID: 0}
         Gain: 1
+        LegacyInput: 
+        LegacyGain: 1
         CancelDeltaTime: 0
       InputValue: 0
       Driver:
