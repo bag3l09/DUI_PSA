@@ -20123,6 +20123,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &1003783031 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2190837854687154432, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+  m_PrefabInstance: {fileID: 1513008832}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1012058887
 GameObject:
   m_ObjectHideFlags: 0
@@ -20510,12 +20515,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020986118}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 585.1748, y: 2.2485256, z: 972.9152}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.491, y: 1.45, z: -0.0222}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1003783031}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1023695790
 Mesh:
@@ -22886,7 +22891,7 @@ MonoBehaviour:
   m_StreamingVersion: 20241001
   m_LegacyPriority: 0
   Target:
-    TrackingTarget: {fileID: 0}
+    TrackingTarget: {fileID: 1020986119}
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
@@ -29487,15 +29492,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1339649633832005654, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.47631836
+      value: -0.49102783
       objectReference: {fileID: 0}
     - target: {fileID: 1339649633832005654, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.355
+      value: -4.390587
       objectReference: {fileID: 0}
     - target: {fileID: 1339649633832005654, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.245879
+      value: 14.283538
       objectReference: {fileID: 0}
     - target: {fileID: 1339649633832005654, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: m_LocalRotation.w
@@ -29531,15 +29536,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2572135823185240293, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.4763
+      value: -0.49102783
       objectReference: {fileID: 0}
     - target: {fileID: 2572135823185240293, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.355
+      value: -4.390587
       objectReference: {fileID: 0}
     - target: {fileID: 2572135823185240293, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.2459
+      value: 14.283538
       objectReference: {fileID: 0}
     - target: {fileID: 3639029797081042991, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29581,6 +29586,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4564780491122737389, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: FollowOffset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564780491122737389, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: FollowOffset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564780491122737389, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: FollowOffset.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5508729196543395354, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: m_Name
       value: Electric Truck - Ready To Drive
@@ -29591,7 +29608,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2190837854687154432, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1020986119}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2965071895334065929, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       insertIndex: -1
@@ -40982,4 +41002,3 @@ SceneRoots:
   - {fileID: 1236221995}
   - {fileID: 1836184916}
   - {fileID: 1513008832}
-  - {fileID: 1020986119}
