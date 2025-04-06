@@ -7,6 +7,13 @@ namespace Ezereal
 {
     public class EzerealCarController : MonoBehaviour // This is the main system resposible for car control.
     {
+        void Start()
+        {
+            // Lock the cursor to the center of the screen
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false; // Hides the cursor
+        }
+
         [Header("Ezereal References")]
 
         [SerializeField] EzerealLightController ezerealLightController;
@@ -119,6 +126,7 @@ namespace Ezereal
 
         void OnStartCar()
         {
+
             isStarted = !isStarted;
 
             if (isStarted)

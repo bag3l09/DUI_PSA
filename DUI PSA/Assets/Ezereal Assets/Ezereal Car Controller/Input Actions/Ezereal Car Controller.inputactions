@@ -220,6 +220,39 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "1D Axis",
+                    "id": "dbc880b3-d006-4242-897d-74a6f024b6ab",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Steer",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "22e88ffa-2d54-434e-85ec-095ea7101bb2",
+                    "path": "<Joystick>/stick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Steer",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "a378bb4a-7461-42a2-8097-445b7c431bcc",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/stick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Steer",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
                     "id": "60ab877d-ff46-4396-bc37-0c969e225fdc",
                     "path": "<Keyboard>/w",
@@ -254,6 +287,17 @@
                 },
                 {
                     "name": "",
+                    "id": "9c51346c-ecd8-4675-b468-bdd11f62fa29",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "99b890fc-de48-4617-a0f1-8ecbe1ccf788",
                     "path": "<Keyboard>/s",
                     "interactions": "",
@@ -278,6 +322,17 @@
                     "name": "",
                     "id": "5ae94992-bfc2-46f7-a5ca-44e3a7b852af",
                     "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Brake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1fac79ff-42da-44d1-8a8a-2b4bbf7324f3",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/rz",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -321,7 +376,7 @@
                 {
                     "name": "",
                     "id": "43d5ae17-0b1c-4ff5-8b89-8b49f6e15994",
-                    "path": "<Gamepad>/buttonSouth",
+                    "path": "<Gamepad>/buttonEast",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -353,6 +408,17 @@
                 },
                 {
                     "name": "",
+                    "id": "4b880f40-8677-450e-ac16-d4cbef194f2a",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DownShift",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ef150ded-e68b-4add-8bdc-4a71b00b364a",
                     "path": "<Keyboard>/shift",
                     "interactions": "",
@@ -365,7 +431,18 @@
                 {
                     "name": "",
                     "id": "8f172098-9fec-4632-91f5-fa017498f970",
-                    "path": "<Gamepad>/buttonEast",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpShift",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2a800069-23c4-4623-a200-b4244b7baf22",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/button5",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -408,6 +485,17 @@
                 },
                 {
                     "name": "",
+                    "id": "89a1fa0e-653b-40ab-ab58-78832da2141a",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/button12",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftTurnSignal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "a8f845fa-c63d-4ba3-9212-d5f64e2cc717",
                     "path": "<Keyboard>/e",
                     "interactions": "",
@@ -421,6 +509,17 @@
                     "name": "",
                     "id": "f6bd5119-a2ce-424f-b1f4-16c12539f5c7",
                     "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightTurnSignal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "35384467-8d77-479d-9027-7bf4752d9287",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/button11",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -474,6 +573,17 @@
                 },
                 {
                     "name": "",
+                    "id": "b5d3e174-5624-4520-aeee-3e201d18b64d",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/button7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LowBeamLight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ddeaff91-82f2-4ae6-9749-5ee404840a0d",
                     "path": "<Keyboard>/l",
                     "interactions": "",
@@ -496,6 +606,17 @@
                 },
                 {
                     "name": "",
+                    "id": "05be3a24-1b24-4fb5-94ca-19355e6a6256",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/button8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HighBeamLight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "e31d1e54-a715-4d85-a628-06c3765e6e97",
                     "path": "<Keyboard>/v",
                     "interactions": "",
@@ -508,7 +629,7 @@
                 {
                     "name": "",
                     "id": "7c09b70a-8e5d-45bc-b5cc-bcc4cb39f9f1",
-                    "path": "<Gamepad>/select",
+                    "path": "<DualShockGamepad>/rightShoulder",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
