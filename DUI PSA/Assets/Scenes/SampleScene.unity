@@ -8342,7 +8342,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &330585544
 AudioListener:
   m_ObjectHideFlags: 0
@@ -25475,7 +25475,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7205710107280986721, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
   m_PrefabInstance: {fileID: 1513008832}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1290675260
+--- !u!114 &1290675266
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -29544,6 +29544,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 91393997}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1484341141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1484341142}
+  - component: {fileID: 1484341143}
+  - component: {fileID: 1484341144}
+  m_Layer: 0
+  m_Name: XR Interaction Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1484341142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484341141}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 584.8446, y: 2.231802, z: 972.7356}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1484341143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484341141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+--- !u!114 &1484341144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484341141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Device: 0
+  m_PoseSource: 2
+  m_PoseProviderComponent: {fileID: 0}
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_UseRelativeTransform: 0
 --- !u!134 &1500931143
 PhysicsMaterial:
   m_ObjectHideFlags: 0
@@ -29658,6 +29723,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3151794262272190415, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3639029797081042991, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: m_LocalPosition.x
       value: 585.33563
@@ -29698,6 +29767,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4072638209918098687, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: m_text
+      value: "Start Car - Alt (Hold)\nShift Up - Shift\nShift Down - Ctrl\nAccelerate
+        - W\nBrake - S\nHandbrake - Space\nTurn Signals - Q / E\nHazard Lights -
+        H\nLow Beam Lights - L\nHigh Beam Lights - L (Hold) \nRestart Scene - R"
+      objectReference: {fileID: 0}
     - target: {fileID: 4564780491122737389, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: FollowOffset.x
       value: 0
@@ -29710,21 +29785,81 @@ PrefabInstance:
       propertyPath: FollowOffset.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4564780491122737389, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: TrackerSettings.BindingMode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904548227111596130, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5508729196543395354, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: m_Name
       value: Electric Truck - Ready To Drive
       objectReference: {fileID: 0}
+    - target: {fileID: 5777837301435365275, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5914349729213249158, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5914349729213249158, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.0506816
+      objectReference: {fileID: 0}
+    - target: {fileID: 5914349729213249158, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.6773977
+      objectReference: {fileID: 0}
+    - target: {fileID: 5914349729213249158, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243950962971684293, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7067308978938806489, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7205710107280986721, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7205710107280986721, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: m_TagString
       value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994006848973642171, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994006848973642171, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: ScanRecursively
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994006848973642171, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: SuppressInputWhileBlending
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8917895740616771620, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9142275550821158628, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1290675258}
+    - target: {fileID: 9142275550821158628, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: cameras.Array.size
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9142275550821158628, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: 'cameras.Array.data[2]'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9142275550821158628, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: 'cameras.Array.data[3]'
@@ -29746,8 +29881,7 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 450813079566151370, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 4757804700163557459, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
     - {fileID: 2305453469524639500, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
@@ -29765,7 +29899,7 @@ PrefabInstance:
       addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 7205710107280986721, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1290675260}
+      addedObject: {fileID: 1290675266}
     - targetCorrespondingSourceObject: {fileID: 1920492357214142347, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       insertIndex: 1
       addedObject: {fileID: 1275434733}
@@ -41156,3 +41290,4 @@ SceneRoots:
   - {fileID: 1836184916}
   - {fileID: 1513008832}
   - {fileID: 156921273}
+  - {fileID: 1484341142}
