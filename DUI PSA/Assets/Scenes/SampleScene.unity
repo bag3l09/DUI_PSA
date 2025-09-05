@@ -24025,6 +24025,50 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1346960399}
+--- !u!1 &1205532336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1205532338}
+  - component: {fileID: 1205532337}
+  m_Layer: 0
+  m_Name: EasySteeringInputBridge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1205532337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205532336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772ca957cfbe3484faf76f8e9a13a060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1205532338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205532336}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 475.59634, y: 194.13992, z: 731.39496}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1209683631
 GameObject:
   m_ObjectHideFlags: 0
@@ -29748,6 +29792,10 @@ PrefabInstance:
     - target: {fileID: 1920492357214142347, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: m_TagString
       value: MainCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 2126184741452958854, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2572135823185240293, guid: 9c8b1a896405b584e99933fce51d5688, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35616,109 +35664,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2068505547}
---- !u!1 &1836184914
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1836184916}
-  - component: {fileID: 1836184915}
-  m_Layer: 0
-  m_Name: Node29
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1836184915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1836184914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16ac6886edfc6d44cb1aa025800086f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pos: {x: 0, y: 0, z: 0}
-  rot: {x: 0, y: 0, z: 0, w: 0}
-  tangent: {x: 0, y: 0, z: 0}
-  easeIO: {x: 0, y: 0}
-  dist: 0
-  time: 0
-  nextTime: 1
-  nextTan: {x: 0, y: 0, z: 0}
-  oldTime: 0
-  tempSegmentTime: 0
-  isSpecialEndNode: 0
-  specialNodeCounterpart: {fileID: 0}
-  specialNodeCounterpartMaster: {fileID: 0}
-  originalConnectionNodes: []
-  isSpecialEndNodeIsStart: 0
-  isSpecialEndNodeIsEnd: 0
-  isSpecialIntersection: 0
-  isSpecialRoadConnPrimary: 0
-  isRoadCut: 0
-  minSplination: 0
-  maxSplination: 1
-  idOnSpline: -1
-  spline: {fileID: 0}
-  uID: 
-  intersectionOtherNode: {fileID: 0}
-  gradeToNext: 
-  gradeToPrev: 
-  gradeToNextValue: 0
-  gradeToPrevValue: 0
-  initialRoadHeight: -1
-  isNeverIntersect: 0
-  isIntersection: 0
-  isEndPoint: 0
-  id: 0
-  intersectionOtherNodeID: 0
-  connectedID: 
-  connectedNode: []
-  isIgnore: 0
-  isTunnel: 0
-  isTunnelStart: 0
-  isTunnelEnd: 0
-  isTunnelMatched: 0
-  tunnelCounterpartNode: {fileID: 0}
-  isBridge: 0
-  isBridgeStart: 0
-  isBridgeEnd: 0
-  isBridgeMatched: 0
-  bridgeCounterpartNode: {fileID: 0}
-  intersection: {fileID: 0}
-  EdgeObjects: []
-  SplinatedObjects: []
-  tTriList: []
-  tHMList: []
-  roadCutWorld: {fileID: 0}
-  shoulderCutRWorld: {fileID: 0}
-  shoulderCutLWorld: {fileID: 0}
-  roadCutMarker: {fileID: 0}
-  shoulderCutRMarker: {fileID: 0}
-  shoulderCutLMarker: {fileID: 0}
---- !u!4 &1836184916
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1836184914}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 487.6099, y: 0, z: 693.04395}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!134 &1837500249
 PhysicsMaterial:
   m_ObjectHideFlags: 0
@@ -41599,7 +41544,7 @@ SceneRoots:
   - {fileID: 1540707315}
   - {fileID: 218129586}
   - {fileID: 1236221995}
-  - {fileID: 1836184916}
   - {fileID: 1513008832}
   - {fileID: 156921273}
   - {fileID: 313403281}
+  - {fileID: 1205532338}
