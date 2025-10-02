@@ -4950,7 +4950,7 @@ MonoBehaviour:
   m_DefaultControlScheme: 
   m_DefaultActionMap: Car
   m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1833533765312951211}
 --- !u!114 &7114275331932080648
 MonoBehaviour:
   m_ObjectHideFlags: 0

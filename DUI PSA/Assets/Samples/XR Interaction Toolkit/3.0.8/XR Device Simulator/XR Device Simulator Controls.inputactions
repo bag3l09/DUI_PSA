@@ -189,7 +189,7 @@
                     "name": "Reset",
                     "type": "Button",
                     "id": "339ccb79-aee9-4ba4-8864-3b6c81c199db",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -467,6 +467,17 @@
                     "name": "",
                     "id": "cd7dcdd6-b569-4c25-87ea-c62a0fb1cf89",
                     "path": "<Keyboard>/v",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b5a9970b-d28e-40e2-82d5-3f7539dc184b",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/button24",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

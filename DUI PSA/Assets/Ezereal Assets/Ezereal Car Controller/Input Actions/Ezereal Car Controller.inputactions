@@ -15,6 +15,15 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "Reset",
+                    "type": "Button",
+                    "id": "e032b818-56d6-484e-8611-228779ca4700",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Steer",
                     "type": "Value",
                     "id": "1108afcb-3177-4eb5-b045-09910053710b",
@@ -220,37 +229,15 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "1D Axis",
-                    "id": "dbc880b3-d006-4242-897d-74a6f024b6ab",
-                    "path": "1DAxis",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Steer",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "negative",
-                    "id": "22e88ffa-2d54-434e-85ec-095ea7101bb2",
-                    "path": "<Joystick>/stick/down",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Steer",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "positive",
-                    "id": "a378bb4a-7461-42a2-8097-445b7c431bcc",
+                    "name": "",
+                    "id": "ff66eb78-2215-47df-974c-f7e62da8d0e3",
                     "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/stick/x",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Steer",
                     "isComposite": false,
-                    "isPartOfComposite": true
+                    "isPartOfComposite": false
                 },
                 {
                     "name": "",
@@ -287,8 +274,8 @@
                 },
                 {
                     "name": "",
-                    "id": "9c51346c-ecd8-4675-b468-bdd11f62fa29",
-                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/z",
+                    "id": "b68e73cf-f2cd-47d3-b06a-3cdd34428865",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/rz",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -332,7 +319,7 @@
                 {
                     "name": "",
                     "id": "1fac79ff-42da-44d1-8a8a-2b4bbf7324f3",
-                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/rz",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/z",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -377,6 +364,17 @@
                     "name": "",
                     "id": "43d5ae17-0b1c-4ff5-8b89-8b49f6e15994",
                     "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Handbrake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "312d23e3-a382-4ede-8f96-ab4ab06f341f",
+                    "path": "<Joystick>/stick/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -656,6 +654,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "StartCar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fa6d3294-3459-4106-bc2e-f465ef5701cd",
+                    "path": "<Keyboard>/v",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1ae7487a-8aee-453b-8954-8251c67e2fb0",
+                    "path": "<HID::Logitech G923 Racing Wheel for PlayStation 4 and PC>/button24",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
